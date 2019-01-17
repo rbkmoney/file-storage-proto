@@ -1,4 +1,4 @@
-namespace java   com.rbkmoney.fistful.msgpack
+namespace java com.rbkmoney.file.storage.msgpack
 namespace erlang msgp
 
 /**
