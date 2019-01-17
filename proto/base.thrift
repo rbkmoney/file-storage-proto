@@ -1,5 +1,5 @@
 namespace java com.rbkmoney.file.storage.base
-namespace erlang base
+namespace erlang file_storage_base
 
 /**
  * Отметка во времени согласно RFC 3339.
