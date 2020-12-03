@@ -15,7 +15,7 @@ struct File {
 struct Options {
     1: optional list<FileExtension> allowed_file_extensions
     2: optional i8 max_file_name_size = 100
-    3: optional string allowed_file_name_symbols = '^[\w\-. ]+$'
+    3: optional string allowed_file_name_symbols 
     4: optional i8 max_file_size_mb = 10
     5: optional i8 max_count_files = 10
 }
