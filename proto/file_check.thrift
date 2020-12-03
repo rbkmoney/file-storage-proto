@@ -65,7 +65,7 @@ service FileCheck {
     /*
 
     * */
-    FileStatus GetStatus (1: FileID file_data_id)
+    FileStatus GetStatus (1: FileID file_id)
         throws (1: FileNotFound ex1)
 
 }
