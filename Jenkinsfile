@@ -22,5 +22,5 @@ build('file-storage-proto', 'docker-host') {
 
         env.skipSonar = 'true'
         pipeJavaProto()
-            }
-        }
+    }
+}
