@@ -27,11 +27,14 @@ enum FileExtension {
 }
 
 union FileStatus {
-    1: FileStatusOk ok
-    2: FileStatusError error
+    1: FileStatusPending pending
+    2: FileStatusSuccess success
+    3: FileStatusError error
 }
 
-struct FileStatusOk {}
+struct FileStatusPending {}
+
+struct FileStatusSuccess {}
 
 struct FileStatusError {
     1: required list<FileStatusErrorReason> errors
